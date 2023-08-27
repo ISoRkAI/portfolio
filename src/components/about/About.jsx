@@ -1,10 +1,10 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-import "./about.css";
-
-import Me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+
+import "./about.css";
+
+import Me from "../../assets/me-about.jpg";
 
 export const About = () => {
   return (
@@ -14,7 +14,7 @@ export const About = () => {
       <div className="container  about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="About Image" />
+            <img src={Me} alt="About img" />
           </div>
         </div>
         <div className="about__content">

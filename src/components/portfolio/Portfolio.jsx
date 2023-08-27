@@ -1,5 +1,6 @@
-import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
+
+import "./portfolio.css";
 
 const portfolios = [
   {

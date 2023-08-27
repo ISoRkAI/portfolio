@@ -1,16 +1,18 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
-import "./nav.css";
+
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+
+import "./nav.css";
+
 export const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
     <nav>
       <a
-        href="#"
+        href={"/#"}
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >

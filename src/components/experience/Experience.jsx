@@ -1,5 +1,7 @@
-import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+
+import "./experience.css";
+
 export const Experience = () => {
   return (
     <section id="experience">
