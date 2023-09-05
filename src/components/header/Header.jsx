@@ -1,9 +1,9 @@
-import Me from "../../assets/me.png";
+import Me from '../../assets/meAvatar1.png';
 
-import { CTA } from "./CTA";
-import { HeaderSocials } from "./HeaderSocials";
+import { CTA } from './CTA';
+import { HeaderSocials } from './HeaderSocials';
 
-import "./header.css";
+import './header.css';
 
 export const Header = () => {
   return (
