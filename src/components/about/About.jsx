@@ -1,10 +1,10 @@
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { VscFolderLibrary } from 'react-icons/vsc';
 
-import "./about.css";
+import './about.css';
 
-import Me from "../../assets/me-about.jpg";
+import Me from '../../assets/me-about.jpg';
 
 export const About = () => {
   return (
@@ -32,14 +32,13 @@ export const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>...</small>
+              <small>8</small>
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam
-            magnam cupiditate possimus delectus tenetur tempore ipsum! Nihil
-            reprehenderit facilis enim dolorem dolor, laborum ex assumenda
-            perspiciatis autem asperiores inventore.
+            I am a Front-End developer, who is ready to fully use my resources
+            and knowledge in the field of HTML, CSS, JavaScript, React,
+            React-native, Node.js for the effective growth of the company
           </p>
 
           <a href="#contact" className="btn btn-primary">
